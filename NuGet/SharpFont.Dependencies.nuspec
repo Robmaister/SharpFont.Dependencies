@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SharpFont.Dependencies</id>
+    <version>2.5.5</version>
+    <title>SharpFont Dependencies</title>
+    <authors>Robert Rouhani</authors>
+    <owners>Robert Rouhani</owners>
+    <licenseUrl>https://github.com/Robmaister/SharpFont.Dependencies/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Robmaister/SharpFont.Dependencies</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Native dependencies for SharpFont.</description>
+    <releaseNotes>Initial release of 2.5.5, supporting MSVC9 - 12, x86 and x64.</releaseNotes>
+    <copyright>Copyright (c) 2012-2015 Robert Rouhani</copyright>
+    <tags>freetype font bindings wrapper text rendering freetype binaries</tags>
+  </metadata>
+  <files>
+    <file src="..\freetype2\2.5.5\**" target="bin" />
+  </files>
+</package>
