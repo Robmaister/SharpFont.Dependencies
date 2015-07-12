@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>SharpFont.Dependencies</id>
-    <version>2.5.5.1</version>
+    <version>2.6</version>
     <title>SharpFont Dependencies</title>
     <authors>Robert Rouhani</authors>
     <owners>Robert Rouhani</owners>
@@ -10,12 +10,12 @@
     <projectUrl>https://github.com/Robmaister/SharpFont.Dependencies</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Native dependencies for SharpFont.</description>
-    <releaseNotes>Added an MSBuild .props file that automatically adds freetype6.dll as an item.</releaseNotes>
+    <releaseNotes>Updated to FreeType 2.6.</releaseNotes>
     <copyright>Copyright (c) 2012-2015 Robert Rouhani</copyright>
     <tags>freetype font bindings wrapper text rendering freetype binaries</tags>
   </metadata>
   <files>
-    <file src="..\freetype2\2.5.5\**" target="bin" />
+    <file src="..\freetype2\2.6\**" target="bin" />
     <file src="SharpFont.Dependencies.props" target="build" />
   </files>
 </package>
