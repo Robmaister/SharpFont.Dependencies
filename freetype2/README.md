@@ -5,6 +5,11 @@ This directory contains all of the FreeType2 builds, a copy of the FreeType
 Project License, and a patch file for when compiling new versions of freetype
 for 64-bit Windows.
 
+**WARNING**: These are not standard builds of FreeType on Windows (for 64-bit)
+and will not work as a drop-in replacement for someone else's build. This is
+why the package is distributed on NuGet as *SharpFont.Dependencies* instead of
+*freetype2.redist* or something similar.
+
 ##Compiling FreeType on Windows
 
 The copies of `freetype6.dll` that the Examples project uses by default are
@@ -14,11 +19,10 @@ on older versions of Windows. If this is the case, you can either modify
 the project file to point to another included version of freetype or you can
 compile FreeType yourself from source.
 
-**Note**: Any copy of `freetype6.dll` can work as a drop-in replacement,
+**Note**: Any 32-bit copy of `freetype6.dll` works as a drop-in replacement,
 including [this copy][1] from the GnuWin32 project. Older versions such as
-that one may crash with a `EntryPointException` when using newer APIs. **If on
-a 64-bit machine** not patching the source code will cause SharpFont to crash
-in weird places.
+that one may crash with a `EntryPointException` when using newer APIs. **This
+is not true of 64-bit copies currently**
 
 Thanks to [this StackOverflow answer][2] for the directions:
 
