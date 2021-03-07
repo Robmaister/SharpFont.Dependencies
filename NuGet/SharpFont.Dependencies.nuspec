@@ -6,7 +6,7 @@
     <title>SharpFont Dependencies</title>
     <authors>Robert Rouhani</authors>
     <owners>Robert Rouhani</owners>
-    <licenseUrl>https://github.com/Robmaister/SharpFont.Dependencies/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/Robmaister/SharpFont.Dependencies/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/Robmaister/SharpFont.Dependencies</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Native dependencies for SharpFont.</description>
